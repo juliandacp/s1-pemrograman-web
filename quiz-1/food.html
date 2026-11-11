@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julian | Local Food</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="site-header">
+    <nav class="navbar">
+        <a href="/quiz1/" class="brand">PERSONAL WEBSITE.</a>
+
+        <div class="nav-links" id="navLinks">
+            <a href="/quiz1/" class="nav-link">Home</a>
+            <a href="/quiz1/profile" class="nav-link">Profile</a>
+            <a href="/quiz1/hometown" class="nav-link">Hometown</a>
+            <a href="/quiz1/food" class="nav-link">Local Food</a>
+            <a href="/quiz1/tourist" class="nav-link">Tourist Places</a>
+        </div>
+
+        <button class="theme-button" id="themeButton">
+            <svg viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="4"></circle>
+                <path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.65 17.65l1.42 1.42M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.65 6.35l1.42-1.42"></path>
+            </svg>
+        </button>
+
+        <button class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+</header>
+
+<main>
+    <section class="section page-section">
+        <div class="section-inner">
+            <div class="section-label">LOCAL CUISINE</div>
+            <h1 class="page-title">Local Food</h1>
+
+            <p class="page-intro">
+                Every region has its own traditional foods that are an 
+                important part of its local identity and culture. Here 
+                is one of the traditional foods from my hometown.
+            </p>
+
+            <div class="food-grid">
+                <article class="food-card">
+                    <img src="assets/food/lodho-ayam-bakar.jpg" alt="Lodho Ayam Bakar">
+                    <div class="food-card-content">
+                        <h2>Lodho Ayam Bakar</h2>
+                        <p class="food-description">
+                            Made from grilled chicken seasoned with a yellow spice blend 
+                            and a special combination of herbs and spices. Its delicious 
+                            flavor can be quite addictive. This dish is also easy to find 
+                            in almost every corner of Tulungagung.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="food-card">
+                    <img src="assets/food/jenang-syabun.png" alt="Jenang Syabun">
+                    <div class="food-card-content">
+                        <h2>Jenang Syabun</h2>
+                        <p class="food-description">
+                            Made from simple ingredients such as glutinous rice, coconut, 
+                            granulated sugar, and sweetened condensed milk. Despite its simple 
+                            ingredients, this traditional food has a deliciously sweet and rich 
+                            flavor.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="food-card">
+                    <img src="assets/food/sompil.jpg" alt="Sompil">
+                    <div class="food-card-content">
+                        <h2>Sompil</h2>
+                        <p class="food-description">
+                            Sompil is served with lontong, accompanied by vegetables cooked in lodeh 
+                            sauce. It is then topped with powdered soybeans and peyek kacang, a 
+                            traditional crispy peanut cracker. This dish is delicious and can be easily 
+                            found throughout Tulungagung.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="food-card">
+                    <img src="assets/food/capar-tape.jpeg" alt="Capar Tape">
+                    <div class="food-card-content">
+                        <h2>Capar Tape</h2>
+                        <p class="food-description">
+                            Capar Tape is made from fermented cassava, or tape, combined with boiled bean 
+                            sprouts and topped with peanut sauce. This combination has also led Capar Tape 
+                            to be known as a type of pecel. The preparation process is relatively simple, 
+                            yet the result is a delicious dish. For some people, its flavor may seem unusual 
+                            because it combines salty, sweet, and savory tastes in one dish.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="food-card">
+                    <img src="assets/food/nasi-patik.jpg" alt="Nasi Patik">
+                    <div class="food-card-content">
+                        <h2>Nasi Patik</h2>
+                        <p class="food-description">
+                            Nasi Patik is served with urap and sayur lodeh, accompanied by chicken and eggs. 
+                            It is traditionally served on banana leaves or teak leaves, which enhance the aroma 
+                            and make the dish even more enjoyable.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="food-card">
+                    <img src="assets/food/kopi-cethe.jpg" alt="Kopi Cethe">
+                    <div class="food-card-content">
+                        <h2>Kopi Cethe</h2>
+                        <p class="food-description">
+                            Tulungagung is known as the “City of Cethe” for a reason. The word “cethe” itself means 
+                            coffee grounds in Javanese. Cethe, also known as nyethe, is the traditional art of applying 
+                            coffee grounds onto cigarettes to create intricate patterns, similar to the art of batik.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer>
+    © <span id="year"></span> Julian. All rights reserved.
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
